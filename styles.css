@@ -1,0 +1,146 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+a {
+  font-size: 1rem;
+  color: #929497;
+  position: absolute;
+  top: .25rem;
+  left: 27.5rem;
+  text-decoration: none;
+  z-index: 10
+}
+a:hover {
+  color: #ED458B;
+  text-decoration: none;
+}
+body {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 2.1rem;
+}
+button {
+  margin: 3.4rem 0 4.75rem 0;
+  height: 3.5rem;
+  border-radius: 2rem;
+  color: #FFFFFF;
+  background-color: #929497;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 2rem;
+  font-weight: 300;
+  width: 47%;
+  display: inline-block;
+}
+button.reset {
+  display: block;
+  margin: 4.5rem auto 1rem;
+  padding-bottom: .25rem;
+  height: 3rem;
+  width: 35.5rem;
+  font-size: 1.5rem;
+}
+button:hover {
+  background-color: #EB008B;
+}
+.clear {
+  float: right;
+}
+.clear:disabled {
+  background-color: #D0D2D3;
+}
+.clearfix:after {
+  content: ' ';
+  display: table;
+  clear: both;
+}
+div {
+  width: 35.5rem;
+  margin: 0 auto;
+  position: relative;
+}
+form {
+  margin: 0 auto;
+}
+.guess {
+  float: left;
+}
+.guess-result {
+  line-height: 16.3rem;
+  color: #EB008B;
+  font-size: 15.5rem;
+}
+header {
+  background-color: #404041;
+  text-align: center;
+  padding: 1.1rem; 
+  margin-bottom: 3.9rem;
+}
+h1 {
+  color: #ED458B;
+  font-size: 4.5rem;
+}
+input {
+  display: block;
+  height: 3.4rem;
+  width: 34rem;
+  margin: 0 auto;
+  padding-left: .75rem;
+  border: 2px solid #D0D2D3;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 2.25rem;
+  font-weight: 300;
+}
+#min-value {
+  margin-top: 2rem;
+  padding-left: 5.5rem;
+  float: left;
+  display: inline block;
+  width: 30%;
+}
+#max-value {
+  margin-top: 2rem;
+  padding-left: 5.75rem;
+  float: right;
+  display: inline block;
+  width: 30%;
+}
+p {
+  color: #404041;
+  text-align: center;
+}
+p.min-title {
+  position: absolute;
+  top: 2.4rem;
+  left: 1.25rem;
+  color: #D0D2D3;
+}
+p.max-title {
+  position: absolute;
+  top: 2.4rem;
+  left: 19.75rem;
+  color: #D0D2D3;
+}
+#range {
+  position: relative;
+}
+
+#range-input {
+    display: none;
+    position: relative;
+    margin: 0 auto;
+    width: 35rem;
+}
+.reset:disabled {
+  background-color: #D0D2D3;
+}
+span {
+  font-weight: 300; 
+  color: #E6E7E8;
+}
+.status {
+  line-height: 3.5rem;
+}
+
+::placeholder {
+  color: #D0D2D3;
+}
